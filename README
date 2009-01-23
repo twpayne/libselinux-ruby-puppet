@@ -1,0 +1,29 @@
+libselinux-ruby-puppet
+Copyright (C) Tom Payne, 2009
+
+This package provides the minimal set of SELinux Ruby bindings required to run
+puppet.  It is provided as an interim mesaure to allow users of RedHat
+Enterprise Linux and its derivatives to be able to use puppet and SELinux until
+the official bindings are released.
+
+http://github.com/twpayne/libselinux-ruby-puppet
+http://puppet.reductivelabs.com/
+
+http://projects.reductivelabs.com/issues/show/1852
+
+
+INSTALLATION
+
+$ git clone git://github.com/twpayne/libselinux-ruby-puppet.git
+$ cd libselinux-ruby-puppet
+$ ruby extconf.rb
+$ make
+# make install
+
+A spec file is provided if you wish to build an RPM.
+
+
+COPYING
+
+libselinux-ruby-puppet is licensed under the Ruby license.  See the file LICENSE
+for details.
