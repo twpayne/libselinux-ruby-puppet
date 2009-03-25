@@ -1,7 +1,7 @@
 Source: libselinux-puppet-ruby
 Priority: extra
 Maintainer: Marc Fournier <marc.fournier@camptocamp.com>
-Build-Depends: debhelper (>= 5), libselinux-dev, ruby1.8-dev
+Build-Depends: debhelper (>= 5), libselinux-dev, ruby1.8-dev, cdbs, ruby-pkg-tools
 Standards-Version: 3.8.0
 Section: libs
 Homepage: http://github.com/twpayne/libselinux-ruby-puppet
