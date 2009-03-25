@@ -6,7 +6,4 @@
 include /usr/share/cdbs/1/rules/debhelper.mk
 include /usr/share/ruby-pkg-tools/1/class/ruby-extconf-rb.mk
 
-install/libselinux-puppet-ruby1.8::
-	cp $(CURDIR)/selinux.rb $(CURDIR)/debian/libaugeas-ruby1.8/usr/lib/ruby/1.8/selinux.rb
-
 DEB_RUBY_SETUP_CMD = $(CURDIR)/extconf.rb
