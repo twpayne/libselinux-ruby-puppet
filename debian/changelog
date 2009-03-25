@@ -1,0 +1,5 @@
+libselinux-puppet-ruby (0.24.7-1) unstable; urgency=low
+
+  * Initial release
+
+ -- Marc Fournier <marc.fournier@camptocamp.com>  Wed, 25 Mar 2009 00:33:27 +0100

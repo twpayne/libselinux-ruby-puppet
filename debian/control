@@ -1,0 +1,29 @@
+Source: libselinux-puppet-ruby
+Priority: extra
+Maintainer: Marc Fournier <marc.fournier@camptocamp.com>
+Build-Depends: debhelper (>= 5), libselinux-dev, ruby1.8-dev
+Standards-Version: 3.8.0
+Section: libs
+Homepage: http://github.com/twpayne/libselinux-ruby-puppet
+
+
+Package: libselinux-puppet-ruby1.8
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends}, puppet (>= 0.24.7)
+Conflicts: libselinux-ruby1.8
+Description: minimal Ruby bindings to SELinux shared libraries
+ This package provides the Ruby bindings needed for developing Ruby
+ SELinux applications.  Security-enhanced Linux is a patch of the
+ Linux kernel and a number of utilities with enhanced security
+ functionality designed to add mandatory access controls to Linux.
+ The Security-enhanced Linux kernel contains new architectural
+ components originally developed to improve the security of the Flask
+ operating system. These architectural components provide general
+ support for the enforcement of many kinds of mandatory access control
+ policies, including those based on the concepts of Type Enforcement,
+ Role-based Access Control, and Multi-level Security.
+ .
+ This package contains the minimal subset of functions required by
+ puppet.
+

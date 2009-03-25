@@ -1,0 +1,20 @@
+This package was debianized by Marc Fournier <marc.fournier@camptocamp.com> on
+Wed, 25 Mar 2009 00:33:27 +0100.
+
+It was downloaded from <http://github.com/twpayne/libselinux-ruby-puppet>
+
+Upstream Author(s):
+
+    Tom Payne <twpayne@gmail.com>
+
+Copyright:
+
+    Tom Payne <twpayne@gmail.com>
+
+License:
+
+    GPL
+
+The Debian packaging is copyright 2009, Marc Fournier <marc.fournier@camptocamp.com> and
+is licensed under the GPL, see `/usr/share/common-licenses/GPL'.
+
